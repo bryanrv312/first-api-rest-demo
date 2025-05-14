@@ -12,7 +12,7 @@ public class HelloController {
     //Agregamos algo nuevo 2
     @GetMapping("/hello")
     public String saludar(){
-        return "Hola Mundo con REST en Spring Boot";
+        return "Hola Mundo con REST en Spring Boot 3";
     }
 
     //Este es otro comentario
