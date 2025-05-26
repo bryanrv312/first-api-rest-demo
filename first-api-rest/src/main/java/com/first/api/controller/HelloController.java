@@ -42,9 +42,9 @@ public class HelloController {
         return "Hola Mundo con REST en Spring Boot";
     }
 
-    @PostMapping("/github-webhook")
-    public String saludar61(){
-        return "Hola Mundo con REST en Spring Boot";
+    @GetMapping("/hello7")
+    public String saludar7(){
+        return "7 - Hola Mundo con REST en Spring Boot";
     }
 }
 
