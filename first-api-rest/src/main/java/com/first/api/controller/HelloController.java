@@ -1,6 +1,7 @@
 package com.first.api.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -38,6 +39,11 @@ public class HelloController {
     //Otro comentario
     @GetMapping("/hello6")
     public String saludar6(){
+        return "Hola Mundo con REST en Spring Boot";
+    }
+
+    @PostMapping("/github-webhook")
+    public String saludar61(){
         return "Hola Mundo con REST en Spring Boot";
     }
 }
