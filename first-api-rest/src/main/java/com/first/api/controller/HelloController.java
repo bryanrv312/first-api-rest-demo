@@ -11,6 +11,7 @@ public class HelloController {
 
     //comentario bryan
     //comentario 2
+    //Probando el pipeline en accion
     @GetMapping("/hello")
     public String saludar(){
         return "Hola Mundo con REST en Spring Boot 3";
