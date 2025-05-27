@@ -18,14 +18,12 @@ import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.*;
 
-//Suscribete a La Tecnologia Avanza
+
 public class ProductoControllerTest {
 
-    //New Comment 1
     @InjectMocks
     private ProductoController productoController;
-
-    //New Comment 2
+    
     @Mock
     private ProductoService productoService;
 
